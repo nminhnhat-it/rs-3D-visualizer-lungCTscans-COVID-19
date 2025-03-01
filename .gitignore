@@ -1,0 +1,65 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+*.egg
+dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.whl
+*.keras
+
+# PySide6/Qt-specific ignores
+*.qrc.py
+*.ui.py
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.qm
+*.qmlc
+*.jsc
+
+# Common IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+.tox/
+dataset/
+
+# Build and packaging
+MANIFEST
+*.manifest
+
+# Virtual environment
+pip-selfcheck.json

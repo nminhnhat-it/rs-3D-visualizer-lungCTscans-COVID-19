@@ -1,0 +1,7 @@
+nibabel
+numpy
+vedo
+imageio
+PySide6
+pyqtgraph
+opencv-python

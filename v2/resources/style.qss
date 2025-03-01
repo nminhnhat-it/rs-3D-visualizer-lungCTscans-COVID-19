@@ -1,0 +1,68 @@
+#Ui_SideBar #scrollAreaWidgetContents {
+  background-color: rgb(37, 37, 38);
+  border: none;
+}
+
+#Ui_SideBar #pushButton {
+  background-color: rgb(37, 37, 38);
+  padding: 5px 12px 5px 12px;
+  border: none;
+  text-align: left;
+}
+
+#Ui_SideBar #label {
+  margin: 12px 12px 0 12px;
+  padding: 0;
+  border: none;
+}
+
+#Ui_SideBar #openFileButton {
+  background-color: rgb(98, 132, 164);
+  padding: 0px 12px 0px 12px;
+  margin: 0px 12px 0px 12px;
+  border-radius: 2px;
+  height: 32px;
+}
+
+#Ui_SideBar #openFileButton:pressed {
+  background-color: rgb(125, 149, 172);
+}
+
+#Ui_FunctionBar QPushButton {
+  background-color: rgb(98, 132, 164);
+  padding: 0px;
+  border-radius: 2px;
+  text-align: center;
+  height: 32px;
+  width: 32px;
+}
+
+#Ui_FunctionBar QPushButton:pressed {
+  background-color: rgb(125, 149, 172);
+}
+
+#Ui_FunctionBar #scrollAreaWidgetContents {
+  background-color: rgb(50, 50, 51)
+}
+
+#Ui_FunctionBar #mask_checkbox {
+  padding: 0px;
+  border-radius: 2px;
+  text-align: center;
+  height: 32px;
+  width: 32px;
+}
+
+#Ui_FunctionBar #mask_checkbox:unchecked {
+  background: rgb(37, 37, 38);
+  border: 2px solid rgb(98, 132, 164);
+}
+
+#Ui_FunctionBar #mask_checkbox:checked {
+  background: rgb(98, 132, 164);
+}
+
+#Ui_FunctionBar #mask_checkbox::indicator {
+  width: 0;
+  height: 0;
+}

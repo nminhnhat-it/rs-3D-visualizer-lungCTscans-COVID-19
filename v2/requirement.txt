@@ -1,0 +1,12 @@
+PySide6
+PyQt6
+nibabel
+vedo
+opencv-python
+pyqtgraph
+tensorflow==2.16.1
+keras_applications
+keras_preprocessing
+image-classifiers==1.0.0b1
+QtAwesome
+vedo

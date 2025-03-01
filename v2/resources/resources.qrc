@@ -1,0 +1,9 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file>icons/icon.ico</file>
+        <file>icons/play-button-arrowhead.png</file>
+        <file>icons/3d-printer.png</file>
+        <file>icons/layers.png</file>
+    </qresource>
+</RCC>
